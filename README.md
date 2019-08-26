@@ -1,2 +1,2 @@
-# kkotnabi
-Codename Kkotnabi -꽃나비-
+# Resources for DANCERUSH Score Tool 
+https://drs.obin.kr or https://dancerush-info.herokuapp.com
