@@ -4,7 +4,7 @@ function dl(val)
 	{		
 		var uri = "https://p.eagate.573.jp/game/dan/1st/json/pdata_getdata.html?service_kind=" + val + "&pdata_kind=" + val;
 		console.log(uri);
-		var name = val + ".dat"; // json
+		var name = val + ".json";
 		var L = document.createElement("a");
 		L.download = name;
 		L.href = uri;
@@ -24,4 +24,4 @@ if (window.location.hostname != "p.eagate.573.jp")
 else
 	for (val of ["dancer_info", "music_data", "play_hist"])	
 		dl(val);
-	window.location.href = "https://dancerush-info.herokuapp.com/update"; // 커스텀 도메인 달면 바꿔야지
+	window.location.href = "https://drs.obin.kr/update";
